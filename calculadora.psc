@@ -15,6 +15,7 @@ Subproceso menu
 		Leer opciondelmenu
 		Si opciondelmenu < 1 o  opciondelmenu  >  5 Entonces
 			Escribir "no corresponde a una opción válida"
+			menu
 		Fin Si
 	Hasta Que opciondelmenu > 1 o opciondelmenu < 6
 	Segun opciondelmenu Hacer
@@ -206,7 +207,7 @@ subproceso suma_de_vectores
 	Fin Para
 	Escribir ""
 	Escribir "ingrese 1 para finalizar"
-	Escribir "ingrese 0 para volver al menu"
+	Escribir "ingrese 0 para volver al menu principal"
 	Repetir
 		Leer ruta
 		Si ruta<>1 y ruta<>0 Entonces
@@ -243,7 +244,7 @@ subproceso resta_de_vectores
 	Fin Para
 	Escribir ""
 	Escribir "ingrese 1 para finalizar"
-	Escribir "ingrese 0 para volver al menu "
+	Escribir "ingrese 0 para volver al menu principal "
 	Repetir
 		Leer ruta
 		Si ruta<>1 y ruta<>0 Entonces
@@ -282,7 +283,7 @@ subproceso producto_escalar
 	FinSi
 	Escribir ""
 	Escribir "ingrese 1 para finalizar"
-	Escribir "ingrese 0 para volver al menu "
+	Escribir "ingrese 0 para volver al menu principal "
 	Repetir
 		Leer ruta
 		Si ruta<>1 y ruta<>0 Entonces
@@ -315,7 +316,7 @@ subproceso escalamiento_de_un_vector
 	Fin Para
 	Escribir ""
 	Escribir "ingrese 1 para finalizar"
-	Escribir "ingrese 0 para volver al menu"
+	Escribir "ingrese 0 para volver al menu principal"
 	Repetir
 		Leer ruta
 		Si ruta<>1 y ruta<>0 Entonces
@@ -350,7 +351,7 @@ subproceso producto_vectorial
 	Fin Para
 	Escribir ""
 	Escribir "ingrese 1 para finalizar"
-	Escribir "ingrese 0 para volver al menu"
+	Escribir "ingrese 0 para volver al menu principal"
 	Repetir
 		Leer ruta
 		Si ruta<>1 y ruta<>0 Entonces
